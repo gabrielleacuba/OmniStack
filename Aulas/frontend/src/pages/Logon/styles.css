@@ -1,3 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,500i,700,900&display=swap');
+
 h1{
-    color: deeppink;
+    font-size: 25px;
+    font-family: Roboto;
 }
+
+.logon-container{
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+
+    display: flex; /* Mais fácil de fazer o alinhamento*/
+    align-items: center; /* Alinhar itens verticalmente*/
+    justify-content: center; /* Alinhar itens horizontalmente*/
+
+}
+.logon-container section.form{
+    width: 100%;
+    max-width: 350px;
+    margin-right: 30px;
+}
+
+.logon-container section.form form{
+    margin-top: 100px; /*Distanciar da logo*/
+}
+
+
+.logon-container section.form form h1{
+    font-size: 32px Roboto;
+    margin-bottom: 32px;
+    
+}
+
+.logon-container section.form form a{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    color: #41414d;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.2s;
+    font-family: Roboto;
+    
+}
+.logon-container section.form form a svg{
+    margin-right: 8px;
+}
+.logon-container section.form form a:hover{
+    opacity: 0.8;
+}
+
+
